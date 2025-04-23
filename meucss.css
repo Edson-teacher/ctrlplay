@@ -1,0 +1,40 @@
+header, nav, section, article, aside, footer {
+    color: blue;
+    border: 3px solid red;
+    padding: 50px;
+    float: left;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+body {
+    background: green;
+}
+
+header, nav, footer {
+    width: 100%;
+}
+
+section, article, aside {
+    height: 700px;
+}
+
+nav {
+    width: 100%;
+    background: white;
+}
+
+section {
+    width: 40%;
+    background: lightblue;
+}
+
+article {
+    width: 40%;
+    background: lightgreen;
+}
+
+aside {
+    width: 20%;
+}
+
